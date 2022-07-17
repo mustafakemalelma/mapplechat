@@ -18,8 +18,9 @@ export interface ThemeInterface {
 const {
   default: styled,
   css,
-  ThemeProvider
+  ThemeProvider,
+  useTheme
 } = styledComponents as styledComponents.ReactNativeThemedStyledComponentsModule<ThemeInterface>;
 
-export {css, ThemeProvider};
+export {css, ThemeProvider, useTheme};
 export default styled;
